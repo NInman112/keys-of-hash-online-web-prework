@@ -5,7 +5,10 @@ class Hash
     # code goes here
     
     new_array = []
-    
-   # binding.pry
+    each do |one, two|
+      if arguments.include?(two)
+        new_array << one
+           # binding.pry
+      end
   end
 end
