@@ -9,6 +9,7 @@ class Hash
       if arguments.include?(two)
         new_array << one
            # binding.pry
+         end
       end
   end
 end
