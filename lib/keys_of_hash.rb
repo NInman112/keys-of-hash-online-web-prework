@@ -5,9 +5,9 @@ class Hash
     # code goes here
     
     new_array = []
-    each do |one, two|
-      if arguments.include?(two)
-        new_array << one
+    each do |animal, location|
+      if arguments.include?(location)
+        new_array << animal
            binding.pry
          end
       end
