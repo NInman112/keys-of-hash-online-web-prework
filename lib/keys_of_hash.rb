@@ -5,8 +5,7 @@ class Hash
     # code goes here
     
     new_array = []
-    new_array << arguments
     
-    binding.pry
+   # binding.pry
   end
 end
