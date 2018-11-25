@@ -12,6 +12,6 @@ class Hash
          end
          
       end
+        new_array
   end
-  new_array
 end
