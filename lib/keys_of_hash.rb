@@ -10,7 +10,8 @@ class Hash
         new_array << one
            # binding.pry
          end
-         new_array
+         
       end
   end
+  new_array
 end
