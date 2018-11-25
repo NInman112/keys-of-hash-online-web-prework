@@ -8,10 +8,9 @@ class Hash
     each do |one, two|
       if arguments.include?(two)
         new_array << one
-           # binding.pry
+           binding.pry
          end
-         
       end
-        new_array
+      new_array
   end
 end
