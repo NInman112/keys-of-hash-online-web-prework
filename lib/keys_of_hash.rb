@@ -8,7 +8,7 @@ class Hash
     each do |animal, location|
       if arguments.include?(location)
         new_array << animal
-           binding.pry
+           #binding.pry
          end
       end
       new_array
